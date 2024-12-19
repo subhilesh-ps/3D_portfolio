@@ -69,7 +69,7 @@ const Navbar = () => {
           </a>
           <a className="text-white" href="https://www.linkedin.com/in/subhi-lesh/">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8nYmrbMAiuD60BZE9Pf2Gxu9li5Nz8GSMY5MB5IYG9sF_jprEN6fwFp-n--hcVNGrJY4&usqp=CAU"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/1200px-LinkedIn_icon_circle.svg.png "
               alt=""
               width={35}
               height={30}

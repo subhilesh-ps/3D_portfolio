@@ -40,9 +40,9 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
         I started my career as an Android Developer intern, gaining valuable experience in software development. I later
         transitioned into sales, where I honed my skills in relationship building, target achievement, and team
-        leadership. Now, as a MERN Stack Developer, I leverage my technical skills in React.js, Node.js,Node.js Express
-        and MongoDB to build user-friendly web applications. I am passionate about creating efficient, scalable, and
-        dynamic software solutions.
+        leadership. Now, as a MERN Stack Developer, I leverage my technical skills in React.js, Node.js,Express js and
+        MongoDB to build user-friendly web applications. I am passionate about creating efficient, scalable, and dynamic
+        software solutions.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

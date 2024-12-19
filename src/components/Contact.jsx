@@ -6,6 +6,9 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+//4Z2Of9HpsQS-G1COs
+//template_7v7tv9m;
+//service_wutdxlq
 
 const Contact = () => {
   const formRef = useRef();
@@ -33,16 +36,17 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_wutdxlq",
+        "template_7v7tv9m",
+
         {
           from_name: form.name,
-          to_name: "Subhilesh ps",
+          to_name: "subhilesh ps",
           from_email: form.email,
           to_email: "subhileshps96@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "4Z2Of9HpsQS-G1COs"
       )
       .then(
         () => {

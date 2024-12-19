@@ -4,7 +4,7 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  // typescript,
   html,
   css,
   reactjs,
@@ -117,7 +117,7 @@ const technologies = [
 const experiences = [
   {
     title: "Full Stack Developer (MERN) Internship",
-    company_name: "EDURE - TRIVANDRUM - INDIA",
+    passout_name: "EDURE - TRIVANDRUM - INDIA",
     icon: starbucks,
     iconBg: "#383E56",
     date: "Aug 2023 – present",
@@ -135,7 +135,7 @@ const experiences = [
   },
   {
     title: "Portfolio Manager",
-    company_name: "Client Advisory Financial Solutions, Chennai, India",
+    passout_name: "Client Advisory Financial Solutions, Chennai, India",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: " Jul 2022 – jun 2023",
@@ -143,7 +143,7 @@ const experiences = [
   },
   {
     title: "Team Leader",
-    company_name: "Cedar Business Solutions, Chennai, India",
+    passout_name: "Cedar Business Solutions, Chennai, India",
     // icon: shopify,
     iconBg: "#383E56",
     date: "Nov 2020 - Dec 2021",
@@ -153,15 +153,15 @@ const experiences = [
   },
   {
     title: "Customer Support Executive",
-    company_name: "M1 Market Soft, Chennai, India",
+    passout_name: "M1 Market Soft, Chennai, India",
     icon: shopify,
     iconBg: "#E6DEDD",
     date: "Mar 2019 – Sept 2020",
-    points: ["dealing with client an queries and resolving them in a timely manner an selling company products."],
+    points: ["dealing with client an queries and resolving them in a timely manner an sellingpassout products."],
   },
   {
     title: "Internship In Android",
-    company_name: "Baabte System Solution- Calicut -INDIA",
+    passout_name: "Baabte System Solution- Calicut -INDIA",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Sept 2017 – Oct 2017",
@@ -173,32 +173,28 @@ const experiences = [
   },
 ];
 
-// const testimonials = [
-//   {
-//     testimonial:
-//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-//     name: "Sara Lee",
-//     designation: "CFO",
-//     company: "Acme Co",
-//     image: "https://randomuser.me/api/portraits/women/4.jpg",
-//   },
-//   {
-//     testimonial:
-//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-//     name: "Chris Brown",
-//     designation: "COO",
-//     company: "DEF Corp",
-//     image: "https://randomuser.me/api/portraits/men/5.jpg",
-//   },
-//   {
-//     testimonial:
-//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-//     name: "Lisa Wang",
-//     designation: "CTO",
-//     company: "456 Enterprises",
-//     image: "https://randomuser.me/api/portraits/women/6.jpg",
-//   },
-// ];
+const Education = [
+  {
+    course: "B S C COMPUTER SCIENCE .",
+    name: "N.M.S.M GOVT COLLAGE KALPETTA",
+
+    passout: "2014-2017",
+    image: "https://media.9curry.com/uploads/organization/image/421/calicut-university.png",
+  },
+  {
+    course: "Higher Secondary (12th Board)",
+    name: "Govt Higher Secondary School, Kanniyambetta",
+
+    passout: "2011-2012",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt8Xvez5ObDgVKKbEMLRFocKcr0i36DlKa1w&s",
+  },
+  {
+    course: "High School (10th Board)",
+    name: "S.N.H.S.School poothadi",
+    passout: "2011",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt8Xvez5ObDgVKKbEMLRFocKcr0i36DlKa1w",
+  },
+];
 
 const projects = [
   {
@@ -280,4 +276,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, Education, projects };
