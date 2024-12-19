@@ -26,14 +26,15 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import movieapp from "./movieapp.png";
+import fitness from "./fitness.png";
 import tripguide from "./tripguide.png";
-
+import netlify1 from "./tech/netlify1.png";
 export {
   logo,
   backend,
   creator,
+  netlify1,
   mobile,
   web,
   github,
@@ -56,7 +57,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
+  movieapp,
+  fitness,
   tripguide,
 };

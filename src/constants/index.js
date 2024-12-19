@@ -19,8 +19,8 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
+  movieapp,
+  fitness,
   tripguide,
   threejs,
 } from "../assets";
@@ -202,33 +202,34 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Movie App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "I created an IMDb clone movie app that allows users to explore, search, and rate movies. The app features a dynamic user interface with movie posters, trailers, and detailed descriptions. It includes user reviews, ratings, and genre-based categorization for easy navigation. The backend is powered by a robust database, ensuring fast and seamless data retrieval. It provides a near-authentic IMDb-like experience for movie enthusiasts.",
     tags: [
       {
-        name: "react",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Api integration",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Css",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: movieapp,
+    source_code_link: "https://github.com/subhilesh-ps/Movie_App",
+    app_view_link: "https://app.netlify.com/sites/sb-movie-app/overview",
   },
   {
-    name: "Job IT",
+    name: "Fitness_Nut",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "I developed Fitness Nut, a full-stack MERN app for tracking gym workouts and fitness goals. Users can log exercises, monitor progress, and set goals with an intuitive and responsive interface. The app features personalized dashboards, It seamlessly integrates MongoDB, Express, React, and Node.js for a smooth user experience. Fitness Nut empowers users to stay consistent and achieve their fitness milestones effectively.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
@@ -236,12 +237,25 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "nodeJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "yellow",
+      },
+      {
+        name: "Express",
+        color: "blue",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: fitness,
+    source_code_link: "https://github.com/subhilesh-ps/FITNESS-NUT",
+    app_view_link: "https://app.netlify.com/sites/fitnesnut/overview",
   },
   {
     name: "Trip Guide",
